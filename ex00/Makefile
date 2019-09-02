@@ -1,6 +1,6 @@
 SRCS	=	srcs/main.c\
-		srcs/ft_split.c\
-		srcs/errors.c
+		srcs/errors.c \
+		srcs/ft_remove_whitespace.c \
 
 OBJS	= ${SRCS:.c=.o}
 
