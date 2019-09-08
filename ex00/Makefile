@@ -1,6 +1,9 @@
 SRCS	=	srcs/main.c\
 		srcs/errors.c \
 		srcs/ft_remove_whitespace.c \
+        srcs/get_next_line.c \
+        libft/ft_strjoin.c \
+        libft/*.c
 
 OBJS	= ${SRCS:.c=.o}
 
@@ -30,4 +33,4 @@ re:		fclean all
 
 gud:		all clean
 
-.PHONY:		all clean fclean re
+.PHONY:		all clean fclean re gud

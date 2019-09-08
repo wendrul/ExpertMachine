@@ -22,8 +22,8 @@ char	*ft_strjoin2(char *s1, char *s2)
 		return (NULL);
 	ft_strcpy(ss, (char*)s1);
 	ft_strcat(ss, s2);
-	ss[ft_strlen(s1) + ft_strlen(s2)] = ' ';
-	ss[ft_strlen(s1) + ft_strlen(s2) + 2] = '\0';
+	ss[ft_strlen(s1) + ft_strlen(s2)] = '`';
+	ss[ft_strlen(s1) + ft_strlen(s2) + 1] = '\0';
 	ft_strdel(&s1);
 	return (ss);
 }
